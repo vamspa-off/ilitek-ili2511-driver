@@ -1,0 +1,1 @@
+obj-$(CONFIG_TOUCHSCREEN_ILITEK_I2C)	+= ilitek_i2c.o
