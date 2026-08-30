@@ -1,0 +1,6 @@
+config TOUCHSCREEN_ILITEK_I2C
+	tristate "ILITEK ILI2511 I2C touchscreen"
+	depends on I2C
+	help
+	  Say Y here if you have an ILITEK ili2511 I2C touchscreen.
+	  I2C touchscreen driver for ILITEK ILI2511.
